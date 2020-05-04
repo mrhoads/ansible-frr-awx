@@ -1,0 +1,6 @@
+---
+- name: Install Free Range Routing role
+  hosts: all
+
+  roles:
+    - mrhoads.frrouting
